@@ -68,18 +68,70 @@ force-app/main/default/
 
 ## 🚀 Useful Commands
 
+### Basic Development Workflow
 ```bash
 # Create a scratch org
 sf org create scratch -f config/project-scratch-def.json -a StudyOrg
 
-# Deploy metadata
+# Deploy all metadata
 sf project deploy start -o StudyOrg
+
+# Deploy specific component
+sf project deploy start --metadata ApexClass:AccountProcessor -o StudyOrg
+
+# Deploy using manifest
+sf project deploy start --manifest manifest/package.xml -o StudyOrg
 
 # Run tests
 sf apex run test -o StudyOrg -w 5
 
 # Open org
 sf org open -o StudyOrg
+```
+
+### Retrieve & Deploy Commands
+```bash
+# Retrieve using manifest
+sf project retrieve start --manifest manifest/package.xml
+
+# Retrieve specific class by source path
+sf project retrieve start --source-dir force-app/main/default/classes/AccountProcessor.cls
+
+# Retrieve specific LWC by source path
+sf project retrieve start --source-dir force-app/main/default/lwc/accountFinder
+
+# Retrieve by metadata type and name
+sf project retrieve start --metadata ApexClass:AccountProcessor
+
+# Retrieve entire classes folder
+sf project retrieve start --source-dir force-app/main/default/classes
+
+# Deploy specific class by source path
+sf project deploy start --source-dir force-app/main/default/classes/AccountProcessor.cls
+
+# Deploy specific LWC by source path
+sf project deploy start --source-dir force-app/main/default/lwc/accountFinder
+
+# Deploy with validation only (dry-run)
+sf project deploy start --manifest manifest/package.xml --dry-run
+
+# Deploy with specific tests
+sf project deploy start --manifest manifest/package.xml --test-level RunSpecifiedTests --tests AccountProcessorTest
+```
+
+### Org Management
+```bash
+# List available orgs
+sf org list
+
+# Authenticate to new org
+sf org login web --alias MyOrg
+
+# View org info
+sf org display --target-org MyOrg
+
+# Delete scratch org
+sf org delete scratch --target-org StudyOrg
 ```
 
 ## Read All About It
