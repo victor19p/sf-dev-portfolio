@@ -1,4 +1,3 @@
-
 /**
  * Provides an implementation of the Enterprise Application Architecture Unit Of Work, as defined by Martin Fowler
  *   http://martinfowler.com/eaaCatalog/unitOfWork.html
