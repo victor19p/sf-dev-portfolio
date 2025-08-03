@@ -36,7 +36,8 @@ force-app/main/default/
 │   └── account*/           # Search and finder patterns
 ├── flexipages/             # Lightning Pages for examples
 └── triggers/               # Trigger implementations
-```e DX Project: Next Steps
+```
+e DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
