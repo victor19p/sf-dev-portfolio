@@ -13,7 +13,7 @@
  * @see TriggerHandlerv2Test
  */
 
-public virtual with sharing class TriggerHandlerv2 {
+public virtual class  TriggerHandlerv2 {
     /**
 	 * Map of `handlerName` => times `run()` was invoked
 	 */

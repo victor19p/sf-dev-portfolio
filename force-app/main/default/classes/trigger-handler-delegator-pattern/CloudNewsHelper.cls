@@ -1,5 +1,6 @@
 public with sharing class CloudNewsHelper {
 
+
     public static void handleAfterInsert(List<Cloud_News__e> newList) {
         System.debug(LoggingLevel.INFO, 'Handling AFTER_INSERT for Cloud_News__e');
         // Implement logic for handling after insert
