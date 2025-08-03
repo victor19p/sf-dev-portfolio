@@ -1,4 +1,5 @@
-# Salesforce Certification Study Guide ## 🎯 Certification Topics Coveredis repository contains my collection of Trailhead exercises, development frameworks, and enterprise architecture patterns for Salesforce certification studies.
+# Salesforce Certification Study Guide 
+## 🎯 Certification Topics Coveredis repository contains my collection of Trailhead exercises, development frameworks, and enterprise architecture patterns for Salesforce certification studies.
 
 ## 📚 Project Content
 
