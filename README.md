@@ -1,5 +1,6 @@
-# Salesforce Certification Study Guide 
-## 🎯 Certification Topics Coveredis repository contains my collection of Trailhead exercises, development frameworks, and enterprise architecture patterns for Salesforce certification studies.
+# Salesforce Certification Study Guide Portfolio
+
+This repository contains my collection of Trailhead exercises, development frameworks, and enterprise architecture patterns for Salesforce certification studies.
 
 ## 📚 Project Content
 
@@ -36,6 +37,24 @@ force-app/main/default/
 │   └── account*/           # Search and finder patterns
 ├── flexipages/             # Lightning Pages for examples
 └── triggers/               # Trigger implementations
+```
+
+## 🎯 Certification Topics Covered
+
+### Platform Developer I
+- ✅ Apex Fundamentals (Classes, Methods, Exception Handling)
+- ✅ Asynchronous Apex (`@future`, `Schedulable`, Batch)
+- ✅ Lightning Web Components (Properties, Events, Data Binding)
+- ✅ Platform Cache Implementation
+- ✅ REST API Development
+- ✅ Unit Testing & Test Coverage
+
+### Platform Developer II
+- ✅ Enterprise Design Patterns
+- ✅ Advanced Apex Testing (Mocking, Test Data Factory)
+- ✅ Trigger Design Patterns & Best Practices
+- ✅ Integration Patterns & APIs
+- ✅ Performance Optimization
 ```
 e DX Project: Next Steps
 
