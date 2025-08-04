@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Allow full access to the Bad Bunch app.</description>
-    <hasActivationRequired>false</hasActivationRequired>
-    <label>Bad Bunch Full Access</label>
     <applicationVisibilities>
         <application>Bad_Bunch</application>
         <visible>true</visible>
     </applicationVisibilities>
+    <description>Allow full access to the Bad Bunch app.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bad Bunch Full Access</label>
     <tabSettings>
         <tab>Example_1_Loop</tab>
         <visibility>Visible</visibility>
